@@ -707,6 +707,7 @@ button {
     height: 80%
 }
 .page-3 {
+    height: 80%
     background-color: #c1b287
 }
 .page-6 {
@@ -775,11 +776,12 @@ button {
     padding: 0
 }
 .page-12 img {
-    position: absolute;
-    bottom: 1em;
-    left: 1em;
-    z-index: 2;
-    height: 40%
+    .page-6 img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 70%
+    }
 }
 .page-20 img,
 .page-28 img {
@@ -819,7 +821,10 @@ button {
     padding: 0
 }
 .page-20 img {
-    left: 4em
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-height;: 70%
 }
 .page-21 {
     background: url(../img/iali59_bg.jpg) #fbf2a3
@@ -899,16 +904,16 @@ button {
 .page-42 h3 {
     font-size: 2em
 }
-.page-34 {
+/* .page-34 {
     background: url(../img/iali57.jpg) left bottom no-repeat #94c2e3
-}
+} */
 .page-34 h3 {
     color: #fff
 }
-.page-35 {
+/* .page-35 {
     background: url(../img/iali8_bg.png) left bottom repeat-x #fff;
     padding: 0
-}
+} */
 .page-35 img {
     z-index: 1
 }
@@ -965,7 +970,7 @@ button {
 .page-41 h3 {
     padding: 0;
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 100%;
     text-align: center
 }
